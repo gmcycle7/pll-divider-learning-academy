@@ -16,6 +16,12 @@
 
 ---
 
+## 線上版本（Live site）
+
+直接使用，不需安裝：**https://gmcycle7.github.io/pll-divider-learning-academy/**
+
+每次 push 到 `main`，GitHub Actions（`.github/workflows/deploy.yml`）會自動跑測試、build，並發佈到 GitHub Pages。
+
 ## 需求（Requirements）
 
 - **Node.js ≥ 20**（本專案使用 Vite 6 / React 19 / TypeScript 5.8，建議搭配 Node 20 LTS 以上版本）
