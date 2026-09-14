@@ -1,0 +1,12 @@
+.phase-mux-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr)); gap: 1em; align-items: start; }
+.phase-mux-vis .pmv-ring { fill: none; stroke: var(--border-strong); stroke-width: 2; }
+.phase-mux-vis .pmv-dot { fill: var(--bg-sunken); stroke: var(--fg-muted); stroke-width: 1.5; }
+.phase-mux-vis .pmv-dot.cur { fill: var(--accent); stroke: var(--accent); }
+.phase-mux-vis .pmv-dot.prev { fill: var(--warn-soft); stroke: var(--warn); }
+.phase-mux-vis .pmv-label { font-size: 12px; fill: var(--fg); font-family: var(--mono); }
+.phase-mux-vis .pmv-center { font-size: 15px; font-weight: 700; fill: var(--fg); font-family: var(--mono); }
+.phase-mux-vis .pmv-center-sub { font-size: 11px; fill: var(--fg-muted); font-family: var(--mono); }
+.phase-mux-vis .pmv-arc { fill: none; stroke: var(--accent); stroke-width: 3; }
+.phase-mux-vis .pmv-boundary { stroke: var(--danger); stroke-width: 2; stroke-dasharray: 3 2; }
+.phase-mux-vis .pmv-foot { font-size: 10px; fill: var(--fg-muted); }
+.phase-mux-info { font-size: 0.93rem; }
